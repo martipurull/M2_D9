@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Albums</title>
+</head>
+
+<body class="">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">FavAlb</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#bio">Bio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mybest">My Best</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myworst">My Worst</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#specialMention">Special Mention</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid text-white fade-in">
+        <div class="container">
+            <h1 class="display-4">Discover a world of love and hate (and a bit of music)</h1>
+            <p class="lead">Favourite albums, worst albums and much, much more...</p>
+        </div>
+    </div>
+    <main class="container mt-5">
+        <h2 id="bio">Marti's Favourite Albums</h2>
+        <div class="row mt-5 align-items-center">
+            <div class="col-12 col-md-6">
+                <img id="marti-img"
+                    src="https://images.squarespace-cdn.com/content/v1/5797eba5e58c6281302be8b2/1614171887631-BN14B4MA8B8AOFP742T9/Broadcasting+Classic+Guitar.JPG?format=750w"
+                    alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                <p>I'm an alternative rock musician turned aspiring web developer with something to say about the
+                    music
+                    that has inspired me ever since I was a child.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quod natus facere fuga
+                    perferendis
+                    et. Tempore, molestias nam, magni illum ipsam quas perspiciatis blanditiis officiis ipsum
+                    reprehenderit, esse odio hic.
+                    Unde odit sit est officiis veritatis dolores sapiente blanditiis corrupti ea consectetur odio
+                    assumenda officia placeat impedit qui iste, commodi tempore eum. Consectetur, eligendi possimus
+                    deleniti qui harum eos impedit.</p>
+            </div>
+        </div>
+        <div class="row justify-content-around mt-5 mb-5">
+            <div class="col-6 mt-2">
+                <h3 id="mybest">These are my favourite albums</h3>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/9/97/Station_to_Station_cover.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Station To Station</h5>
+                        <h6>by David Bowie</h6>
+                        <p class="card-text">Taking the detached plastic soul of Young Americans to an elegant,
+                            robotic
+                            extreme, Station to Station is a transitional
+                            album that creates its own distinctive style.</p><br>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Pop/Rock</li>
+                        <li class="list-group-item">January 1976</li>
+                        <li class="list-group-item">Duration: 38:21</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/So_(album)" class="card-link"><img
+                                class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/album/0hQb1KT6L3iEYRkS5u8cjm?si=rRJDoGjBTyiqb8jOv_HZow&dl_branch=1"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">POP-ROCK</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/7/70/Unknown_Pleasures_Joy_Division_LP_sleeve.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Unknown Pleasures</h5>
+                        <h6>by Joy Division</h6>
+                        <p class="card-text">Unknown Pleasures has received sustained critical acclaim as an
+                            influential
+                            post-punk album, and has been named as one of the
+                            best albums of all time by publications such as NME, AllMusic, Select, Rolling Stone,
+                            and
+                            Spin.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Post-punk</li>
+                        <li class="list-group-item">April 1979</li>
+                        <li class="list-group-item">Duration: 39:28</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/So_(album)" class="card-link"><img
+                                class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/album/0hQb1KT6L3iEYRkS5u8cjm?si=rRJDoGjBTyiqb8jOv_HZow&dl_branch=1"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">POST-PUNK</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Police-album-synchronicity.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Synchronicty</h5>
+                        <h6>by The Police</h6>
+                        <p class="card-text">Synchronicity reached number one on both the UK Albums Chart and the US
+                            Billboard 200, and sold over eight million
+                            copies in the US. The album was widely acclaimed by critics.</p><br>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">New wave / Post-punk</li>
+                        <li class="list-group-item">June 1983</li>
+                        <li class="list-group-item">Duration: 39:42</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/So_(album)" class="card-link"><img
+                                class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/album/0hQb1KT6L3iEYRkS5u8cjm?si=rRJDoGjBTyiqb8jOv_HZow&dl_branch=1"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">NEW-WAVE</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/So_%28album%29.png" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">So</h5>
+                        <h6>by Peter Gabriel</h6>
+                        <p class="card-text">Often considered his best and most accessible album, So was an
+                            immediate
+                            commercial success and transformed Gabriel from
+                            a cult artist into a mainstream star, becoming his best-selling solo release.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Art Rock</li>
+                        <li class="list-group-item">May 1986</li>
+                        <li class="list-group-item">Duration: 41:56</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/So_(album)" class="card-link"><img
+                                class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/album/0hQb1KT6L3iEYRkS5u8cjm?si=rRJDoGjBTyiqb8jOv_HZow&dl_branch=1"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">ART ROCK</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f0/Letlovein.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Let Love In</h5>
+                        <h6>by Nick Cave</h6>
+                        <p class="card-text">Let Love In is the eighth studio album by Nick Cave and the Bad Seeds,
+                            released on 18 April 1994 on Mute Records. As of May 2015 it was certified silver by
+                            British
+                            Phonographic Industry for 60,000 sold units in UK. As of January
+                            1996 the album has sold 50,000 copies in United States.</p><br>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Post-punk</li>
+                        <li class="list-group-item">April 1994</li>
+                        <li class="list-group-item">Duration: 48:18</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/So_(album)" class="card-link"><img
+                                class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/album/0hQb1KT6L3iEYRkS5u8cjm?si=rRJDoGjBTyiqb8jOv_HZow&dl_branch=1"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">POST-PUNK</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Autobahn_2009.jpg/440px-Autobahn_2009.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Autobahn</h5>
+                        <h6>by Kraftwerk</h6>
+                        <p class="card-text">Autobahn is the fourth studio album by German electronic band
+                            Kraftwerk,
+                            released in November 1974. It was the band's
+                            first album to fully embrace the repetitive electronic sound they would become known for
+                            (although organic instruments
+                            still remained part of their sonic palette) and was inspired by the titular German
+                            motorway
+                            system.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Electronic Pop</li>
+                        <li class="list-group-item">November 1974</li>
+                        <li class="list-group-item">Duration: 42:26</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/So_(album)" class="card-link"><img
+                                class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/album/0hQb1KT6L3iEYRkS5u8cjm?si=rRJDoGjBTyiqb8jOv_HZow&dl_branch=1"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">ELECTRONIC</span>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-around mt-5 mb-5">
+            <div class="col-6 mt-2">
+                <h3 id="myworst">And here's my hall of shame</h3>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Elvis_greatestbootleg.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Evis' Greatest Shit</h5>
+                        <h6>by Elvis Presley</h6>
+                        <p class="card-text">The disc was assembled by a bootlegger known simply as "Richard", who
+                            thought some fans were overenthusiastic to the
+                            point of deification, and wanted to show that Presley, like most other artists, could
+                            not
+                            produce exclusively critically
+                            acclaimed work throughout his lengthy career.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Pop</li>
+                        <li class="list-group-item">July 1982</li>
+                        <li class="list-group-item">Duration: <em>too long</em></li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Elvis%27_Greatest_Shit"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/playlist/1sI7gQvH3IxCHQ4zYr8vtI?si=008e3b6bdd3c4376"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">POP</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/db/Kevin_Federline_Playing_with_Fire.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Playing With Fire</h5>
+                        <h6>by Kevin Federline</h6>
+                        <p class="card-text">The only album recorded by Kevin Federline, ex-husband of Britney
+                            Spears,
+                            Playing with Fire is review aggregator
+                            Metacritic's lowest-scoring album with a rating of 15. It was also a commercial failure,
+                            with first-week sales of
+                            only 6,000 in the U.S.</p><br>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Pop Rap</li>
+                        <li class="list-group-item">October 2006</li>
+                        <li class="list-group-item">Duration: 49:36</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank"
+                            href="https://en.wikipedia.org/wiki/Playing_with_Fire_(Kevin_Federline_album)"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/artist/3k9ws4CDKMxYwOsnFWg3ms?si=vjcN82evTe-m8r48WXWqVw&dl_branch=1"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">POP-RAP</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/4/40/Lou_Reed_and_Metallica_-_Lulu.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lulu</h5>
+                        <h6>by Lou Reed & Metallica</h6>
+                        <p class="card-text">Pitchfork Media's Stuart Berman awarded the album a score of 1/10 and
+                            wrote
+                            that Lulu disappoints even in its "worst of
+                            all time" status. "For all the hilarity that ought to ensue here, Lulu is a
+                            frustratingly
+                            noble failure."</p><br>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Avant-garde metal</li>
+                        <li class="list-group-item">October 2011</li>
+                        <li class="list-group-item">Duration: 87:05</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Lulu_(Lou_Reed_and_Metallica_album)"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg"
+                                alt=""></a>
+                        <a target="_blank"
+                            href="https://open.spotify.com/album/3a1SJd8obHju43McHQew7J?si=CA0QNoJFRbG7iU_XjiSN_A&dl_branch=1"
+                            class="card-link"><img class="logo-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png"
+                                alt=""></a>
+                    </div>
+                    <span class="genre-badge">AVANTGARDE</span>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mt-5 mb-5">
+            <div class="col-12">
+                <h3 id="specialMention">A special mention</h3>
+            </div>
+        </div>
+        <div class="row justify-content-around align-items-center">
+            <div class="col-12 col-md-6">
+                <img id="sting-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sting_in_April_2018.jpg/1200px-Sting_in_April_2018.jpg"
+                    alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                <p>
+                    Sting is one of the very few artists capable of producing extremely complex compositions and
+                    arrangements and still make them commercially successful.
+                </p>
+                <p>He is also an accomplished wordsmith. I wrote this <a class="text-light" target="_blank"
+                        href="https://martipurull.medium.com/becoming-better-by-learning-from-the-best-for-free-5e3c4d7f2ef0">article
+                        on Medium</a> about his song <em>All This
+                        Time</em>.</p>
+                <p>More than anything, though, he is the reason I became a musician.</p>
+            </div>
+        </div>
+        <div class="row text-center mt-5 mb-5">
+            <div class="col-12">
+                <h3>A tapestry of covers</h3>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://images.squarespace-cdn.com/content/v1/5797eba5e58c6281302be8b2/1614170273774-VFQZQX2F2OP3FLFVZQGQ/NS+Front+Final.png?format=500w"
+                    alt="">
+            </div>
+
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://upload.wikimedia.org/wikipedia/en/9/97/Station_to_Station_cover.jpg" alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://upload.wikimedia.org/wikipedia/en/7/70/Unknown_Pleasures_Joy_Division_LP_sleeve.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://upload.wikimedia.org/wikipedia/en/7/7f/Police-album-synchronicity.jpg" alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover" src="https://upload.wikimedia.org/wikipedia/en/a/a4/So_%28album%29.png" alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover" src="https://upload.wikimedia.org/wikipedia/en/f/f0/Letlovein.jpg" alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Autobahn_2009.jpg/440px-Autobahn_2009.jpg"
+                    alt="">
+            </div>
+
+
+
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/95d380b3a07a63f7e483aeed2ae4b0b9/5395533/pink-floyd-the-dark-side-of-the-moon-Cover-Art.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/a115bb00075fcd27a8c53f9d92b1ea0a/8542182/david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars-Cover-Art.png"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/b4c9fde45ac54c7763540f096b878649/7426308/miles-davis-kind-of-blue-Cover-Art.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/5f2d7490a369135d8b92915d8cf8a3a2/4175208/pink-floyd-animals-Cover-Art.png"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/36e385a85adce5821e624fd265724b4b/1816031/the-smiths-the-queen-is-dead-Cover-Art.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/8ac69491946eedf791c7bbda9131a69f/3677487/bob-dylan-highway-61-revisited-Cover-Art.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/a115bb00075fcd27a8c53f9d92b1ea0a/8542182/david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars-Cover-Art.png"
+                    alt="">
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/b4c9fde45ac54c7763540f096b878649/7426308/miles-davis-kind-of-blue-Cover-Art.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/abeec65ece1a2792e386c9c2a92ab06d/8879684/radiohead-kid-a-Cover-Art.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://images.squarespace-cdn.com/content/v1/5797eba5e58c6281302be8b2/1614170357192-SQM42TXKZDOFEW114SM2/final+cover+3000x3000+%28rgb%29.jpg?format=500w"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/ae9458f9d39d4075e84d68802d7ec476/8862252/radiohead-ok-computer-Cover-Art.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/45f749f5839b1e9a7b9de2dd58afdf58/4184635/pink-floyd-wish-you-were-here-Cover-Art.png"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/d62c8c3b2c4365710ac9c3e05e94c11d/7999484/king-crimson-in-the-court-of-the-crimson-king-Cover-Art.jpg"
+                    alt="">
+            </div>
+            <div class="col-1">
+                <img class="album-cover"
+                    src="https://e.snmc.io/i/600/w/b4c9fde45ac54c7763540f096b878649/7426308/miles-davis-kind-of-blue-Cover-Art.jpg"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="container position-relative">
+            <h3 class="mt-5">Here's a great album: Pink Floyd's <em>Dark Side Of The Moon</em></h3>
+            <!-- <div class="album-cover">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png" alt="">
+            </div> -->
+
+            <div class="container">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Track no.</th>
+                            <th scope="col">Song Title</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Composer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Speak To Me</td>
+                            <td>01:07</td>
+                            <td>Mason</td>
+                            <td><button id="1" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Breathe (In the Air)</td>
+                            <td>02:49</td>
+                            <td>Gilmour/Waters/Wright</td>
+                            <td><button id="2" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>On the Run</td>
+                            <td>03:45</td>
+                            <td>Gilmour/Waters</td>
+                            <td><button id="3" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Time</td>
+                            <td>06:53</td>
+                            <td>Gilmour/Mason/Waters/Wright</td>
+                            <td><button id="4" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>The Great Gig In The Sky</td>
+                            <td>04:44</td>
+                            <td>Torry/Wright</td>
+                            <td><button id="5" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Money</td>
+                            <td>06:23</td>
+                            <td>Waters</td>
+                            <td><button id="6" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Us and Them</td>
+                            <td>07:49</td>
+                            <td>Waters/Wright</td>
+                            <td><button id="7" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Any Colour You Like</td>
+                            <td>03:26</td>
+                            <td>Gilmour/Mason/Wright</td>
+                            <td><button id="8" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Brain Damage</td>
+                            <td>03:46</td>
+                            <td>Waters</td>
+                            <td><button id="9" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>On the Run</td>
+                            <td>02:12</td>
+                            <td>Waters</td>
+                            <td><button id="10" type="button" class="btn btn-danger delete-track-btn"
+                                    onclick="deleteTrack(event)">delete track</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+                    Add Track
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Add a song</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body bg-dark text-white">
+                                <div class="input-group input-group-sm mb-3">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="inputGroup-sizing-sm">Track
+                                                        Title</span>
+                                                </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Sizing example input"
+                                                    aria-describedby="inputGroup-sizing-sm">
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="inputGroup-sizing-sm">Track
+                                                        No.</span>
+                                                </div>
+                                                <input type="number" class="form-control"
+                                                    aria-label="Sizing example input"
+                                                    aria-describedby="inputGroup-sizing-sm">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="inputGroup-sizing-sm">Track
+                                                        Duration</span>
+                                                </div>
+                                                <input type="time" class="form-control"
+                                                    aria-label="Sizing example input"
+                                                    aria-describedby="inputGroup-sizing-sm">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success">Add Song</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="album-cover-dark-side-of-the-moon">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png" alt="">
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-light">
+        <div class="container text-center">
+            <div class="mt-3 py-5">
+                FavAlb.com, &copy; 2021, all rights reserved
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

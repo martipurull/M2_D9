@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Space+Mono&display=swap');
+:root {
+    --main-font-family: 'Space Mono', monospace;
+    --main-title-font-family: 'Space Grotesk', sans-serif;
+}
+body {
+    padding-top: 50px;
+    background-color: #d3d3d3;
+    font-family: var(--main-font-family)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--main-title-font-family)
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+}
+
+#marti-img, #sting-img {
+    width: 75%;
+    height: 100%;
+    margin: 20px auto;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+}
+
+.album-cover {
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background-color: darkgrey;
+    text-align: center;
+    margin: auto;
+}
+
+.card {
+    min-height: 100%;
+    position: relative;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fade-in 4s 0.5s forwards;
+}
+
+.jumbotron {
+    background: rgb(211,211,211);
+    background: linear-gradient(0deg, rgba(211,211,211,1) 0%, rgba(52,58,64,1) 90%);
+}
+
+.genre-badge {
+    position: absolute;
+    background: #ffd604;
+    border: 2px solid rgba(0, 0, 0, 0.712);
+    border-left: none;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    box-shadow: 2px 2px 2px 1px rgb(211,211,211);;
+    font-family: var(--main-title-font-family);
+    padding: 5px 5px;
+}
+
+.album-cover-dark-side-of-the-moon {
+    position: absolute;
+    top: 0;
+    bottom: 100%;
+    left: 79%;
+    right: 0;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.album-cover-dark-side-of-the-moon img {
+    border-radius: 50%;
+}
+
+
+.btn-warning {
+    font-size: 1rem;
+    box-shadow: -2px -2px 5px #ffd604;
+    transition: box-shadow 0.5s, font-size 1s;
+}
+.btn-warning:hover {
+    font-size: 1.1rem;
+    opacity: 1;
+    box-shadow: 4px 4px 5px #dab500;
+}
+
+.delete-track-btn {
+    font-size: 11px;
+}
