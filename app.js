@@ -12,15 +12,19 @@
 
 // }
 
+// const deleteTrack = function (e) {
+//     let buttonId = e.target.id
+//     let songRows = document.querySelectorAll('tr')
+//     console.log(e)
+//     for (let i = 0; i < songRows.length; i++) {
+//         let songNumber = songRows[i].innerText.slice(0, 2)
+//         console.log(songNumber)
+//     }
+// }
+
+
 const deleteTrack = function (e) {
-    let buttonId = e.target.id
-    let songRows = document.querySelectorAll('tr')
-    console.log(e)
-    for (let i = 0; i < songRows.length; i++) {
-        let songNumber = songRows[i].innerText.slice(0, 2)
-        console.log(songNumber)
-    }
+    let td = e.target.parentNode
+    let tr = td.parentNode
+    tr.parentNode.removeChild(tr)
 }
-
-
-
