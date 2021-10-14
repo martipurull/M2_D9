@@ -38,16 +38,37 @@ const addTrack = function () {
     let newRow = document.createElement('tr')
     tbody.appendChild(newRow)
     let newRowNo = document.createElement('th')
+    let newRowNoValue = document.querySelector('input[name="TrackNo"]').value
     newRowNo.setAttribute('scope', 'row')
-    newRowNo.innerText = document.querySelector('input[name="TrackNo"]').innerText
+    newRowNo.innerText = newRowNoValue
     newRow.appendChild(newRowNo)
     let newTrackTitle = document.createElement('td')
-    newTrackTitle.innerText = document.querySelector('input[name="TrackTitle"]').innerText
+    let newTrackTitleValue = document.querySelector('input[name="TrackTitle"]').value
+    newTrackTitle.innerText = newTrackTitleValue
     newRow.appendChild(newTrackTitle)
     let newTrackDuration = document.createElement('td')
-    newTrackDuration.innerText = document.querySelector('input[name="TrackDuration').innerText
+    let newTrackDurationValue = document.querySelector('input[name="TrackDuration').value
+    newTrackDuration.innerText = newTrackDurationValue
     newRow.appendChild(newTrackDuration)
     let newTrackComposer = document.createElement('td')
-    newTrackComposer.innerText = document.querySelector('input[name="TrackComposer').innerText
+    let newTrackComposerValue = document.querySelector('input[name="TrackComposer').value
+    newTrackComposer.innerText = newTrackComposerValue
     newRow.appendChild(newTrackComposer)
+    let deleteButtonContainer = document.createElement('td')
+    newRow.appendChild(deleteButtonContainer)
+    let deleteButton = document.createElement('button')
+    deleteButton.classList.add('btn')
+    deleteButton.classList.add('btn-danger')
+    deleteButton.classList.add('delete-track-btn')
+    deleteButton.setAttribute('type', 'button')
+    deleteButton.setAttribute('onclick', 'deleteTrack(event)')
+    deleteButton.innerText = 'delete track'
+    deleteButtonContainer.appendChild(deleteButton)
 }
+
+// const readValue = function () {
+//     let trackTitle = document.querySelector('input[name="TrackTitle"]')
+//     console.log(trackTitle.value)
+// }
+
+// readValue()
