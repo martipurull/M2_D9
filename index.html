@@ -630,7 +630,14 @@
                                                     <span class="input-group-text" id="inputGroup-sizing-sm">Track
                                                         Title</span>
                                                 </div>
-                                                <input type="text" class="form-control"
+                                                <input name="TrackTitle" type="text" class="form-control"
+                                                    aria-label="Sizing example input"
+                                                    aria-describedby="inputGroup-sizing-sm">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"
+                                                        id="inputGroup-sizing-sm">Composer</span>
+                                                </div>
+                                                <input name="TrackComposer" type="text" class="form-control"
                                                     aria-label="Sizing example input"
                                                     aria-describedby="inputGroup-sizing-sm">
                                             </div>
@@ -639,14 +646,14 @@
                                                     <span class="input-group-text" id="inputGroup-sizing-sm">Track
                                                         No.</span>
                                                 </div>
-                                                <input type="number" class="form-control"
+                                                <input name="TrackNo" type="number" class="form-control"
                                                     aria-label="Sizing example input"
                                                     aria-describedby="inputGroup-sizing-sm">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="inputGroup-sizing-sm">Track
                                                         Duration</span>
                                                 </div>
-                                                <input type="time" class="form-control"
+                                                <input name="TrackDuration" type="time" class="form-control"
                                                     aria-label="Sizing example input"
                                                     aria-describedby="inputGroup-sizing-sm">
                                             </div>
@@ -656,7 +663,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-success">Add Song</button>
+                                <button type="button" class="btn btn-success" onclick="addTrack()">Add Song</button>
                             </div>
                         </div>
                     </div>

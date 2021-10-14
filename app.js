@@ -23,8 +23,31 @@
 // }
 
 
+// const deleteTrack = function (e) {
+//     let td = e.target.parentNode
+//     let tr = td.parentNode
+//     tr.parentNode.removeChild(tr)
+// }
+
 const deleteTrack = function (e) {
-    let td = e.target.parentNode
-    let tr = td.parentNode
-    tr.parentNode.removeChild(tr)
+    e.target.parentNode.parentNode.remove()
+}
+
+const addTrack = function () {
+    let tbody = document.querySelector('tbody')
+    let newRow = document.createElement('tr')
+    tbody.appendChild(newRow)
+    let newRowNo = document.createElement('th')
+    newRowNo.setAttribute('scope', 'row')
+    newRowNo.innerText = document.querySelector('input[name="TrackNo"]').innerText
+    newRow.appendChild(newRowNo)
+    let newTrackTitle = document.createElement('td')
+    newTrackTitle.innerText = document.querySelector('input[name="TrackTitle"]').innerText
+    newRow.appendChild(newTrackTitle)
+    let newTrackDuration = document.createElement('td')
+    newTrackDuration.innerText = document.querySelector('input[name="TrackDuration').innerText
+    newRow.appendChild(newTrackDuration)
+    let newTrackComposer = document.createElement('td')
+    newTrackComposer.innerText = document.querySelector('input[name="TrackComposer').innerText
+    newRow.appendChild(newTrackComposer)
 }
